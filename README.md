@@ -119,6 +119,32 @@ Lets you change the read, write, and execute permissions on your files.
 chmod -options filename
 ```
 
+Syntax : (for numericals role assignment)
+```bash
+chmod nnn /path/to/file
+```
+Where n is number from 0 to 7
+
+Here, 
+first number is for Owner
+second is for group
+third is for Other
+
+following number are used for permissions
+0 - no permissions
+1 - execute
+2 - write
+3 - write and execute
+4 - read
+5 - read and execute
+6 - read and write
+7 - read, write and execute.
+
+For example to provide full access to only Owner
+```bash
+chmod 700 path/to/file
+```
+
 ### c. `cp`
 Copies a file from one location to other.  
 ```bash
