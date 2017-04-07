@@ -125,20 +125,21 @@ chmod nnn /path/to/file
 ```
 Where n is number from 0 to 7
 
-Here,
-First number is for Owner
-Second number is for group
-Third number is for Other
+<ul>Here,
+<li>First number is for Owner</li>
+<li>Second number is for group</li>
+<li>Third number is for Other</li>
+</ul>
 
-Following number are used for permissions
-0 - no permissions
-1 - execute
-2 - write
-3 - write and execute
-4 - read
-5 - read and execute
-6 - read and write
-7 - read, write and execute.
+<b>Following number are used for permissions</b></br>
+0 - no permissions</br>
+1 - execute</br>
+2 - write</br>
+3 - write and execute</br>
+4 - read</br>
+5 - read and execute</br>
+6 - read and write</br>
+7 - read, write and execute.</br>
 
 For example to provide full access to only Owner
 
